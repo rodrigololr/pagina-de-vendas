@@ -1,0 +1,919 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;    
+}
+
+body{
+    background-color: #e6f3f6;
+    color: black;
+
+}
+
+header{
+    background-image: url("people-mountain-grandparents-with-grandchildren-woman-.pngwhite-dress.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+span{
+    font-weight: bold;
+}
+    
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container button{
+    margin-top: 100%;
+    cursor: pointer;
+    background-color: #31486c;
+    color: white;
+    height: 60px;
+    width: 300px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.container button:hover{
+    margin-top: 100%;
+    cursor: pointer;
+    background-color: #0a1b35;;
+    color: white;
+    height: 60px;
+    width: 300px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.wrapper h2{
+    width: 100%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+
+.box-wrapper{
+    margin-top: 30px;
+    height: 300px;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 6px 15px 16px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.box-text{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-text h2{
+    font-size: 28px;
+}
+
+.box-text p{
+    margin-top: 10px;
+    padding: 0 4%;
+    font-size: 20px;
+}
+
+
+
+
+
+/*
+*/
+
+section .beneficos{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficos{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.beneficos img{
+    width: 65%;
+    box-shadow: 0px 6px 15px 16px rgba(0,0,0,0.1);
+}
+
+/*
+
+
+*/
+
+section.function{
+    margin: 100px 0px;
+    width: 100%;
+    height: 500px;
+    background-color:#a3e6f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-function{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    padding: 0 2%;
+    font-size: 45px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+
+
+.text-function h3{
+    margin-top: 40px;
+    width: 70%;
+    font-size: 27px;
+    text-align: center;
+}
+
+
+/*
+
+
+*/
+
+section.for-who{
+    width: 100%;
+}
+
+.text-for{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wth-60{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.wth-40{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.text-for p{
+    text-align: left;
+    font-size: 22px;
+    padding: 0 10%;
+}
+
+.img{
+    width: 100%;
+    height: 700px;
+    background-image: url('imgs/BENEFICIOS\ \(615\ x\ 700\ px\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+/*
+
+*/
+
+
+.para-quem h1{
+    margin-top: 70px;
+}
+
+.img1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+/*
+
+
+*/
+
+.row {
+    margin-top: 20px;
+    background-color: white;
+    width: 60%;
+    height: 80px;
+    box-shadow: 0px 6px 15px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.row h4 {
+    width: 25%;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.row p {
+    font-size: 18px;
+    width: 75%;
+    margin: 0;
+    padding-right: 1%;
+}
+
+
+/*
+
+
+*/
+
+.resumo{
+    padding: 0 2%;
+    margin-bottom: 20px;
+}
+
+
+
+/*
+
+
+*/
+
+section.provas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.provas{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.provas img{
+    width: 50%;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*
+
+
+*/
+
+.powerup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.capa{
+    width: 33.3%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus-livro{
+    background-image: url("guigui-Recuperado.psdPrancheta-1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 80%;
+    height: 400px;
+    
+}
+
+.bonus-check{
+    background-image: url("imgs/2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+}
+
+.bonus-guiada{
+    background-image: url("imgs/3(1).png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+}
+
+
+/*
+
+
+
+*/
+
+.block-wrapper{
+    margin-top: 30px;
+    height: 700px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0px 6px 15px 16px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.block-text{
+    padding-top: 90px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.cta1 span,.cta1{
+    margin-top: 20px;
+    font-family: 'Poetsen One', sans-serif ;
+}
+.cta2 span,.cta3 span{
+    font-family: 'Poetsen One', sans-serif !important;
+   
+}
+.cta3,.cta2{
+    font-family: 'Poetsen One', sans-serif !important;
+    
+}
+
+
+.block-text button{
+    cursor: pointer;
+    background-color: #31486c;
+    color: white;
+    height: 70px;
+    width: 400px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.block-text button:hover{
+    cursor: pointer;
+    background-color: #0a1b35;
+    color: white;
+    height: 70px;
+    width: 400px;
+    border: 0;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p.security{
+    display: flex;
+}
+
+.security:nth-last-child(3){
+    margin-top: 30px;
+    text-align: center;
+}
+
+.security:nth-last-child(1){
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/*
+
+
+*/
+
+
+section.garantia{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco img{
+    margin: 0 60px;
+    margin-bottom: 40px;
+}
+
+.bloco p{
+    text-align: justify;
+    font-size: 22px;
+    width: 70%;
+} 
+
+
+
+
+/*
+
+*/
+
+
+.faq-section {
+    margin: 50px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 0px 6px 15px 16px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+.faq-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
+.faq-question {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.faq-question:hover {
+    color: #0072dd;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border-left: 3px solid #0a1b35;
+    margin-top: 5px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width: 1180px){
+
+    header{
+        background-image: url("celular_2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+
+    .box-wrapper{
+        margin-top: 30px;
+        height: 300px;
+        width: 50% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .title h1{
+        padding: 0 2%;
+        font-size: 35px;
+         text-align: center;
+         margin: 20px 0px;
+
+    }
+    
+    .text-function h3{
+        margin-top: 40px;
+        width: 70%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .text-for{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wth-60{
+        width: 100%;
+    }
+    
+    .wth-40{  
+        width: 100%;
+    }
+
+
+    .block-wrapper{
+        width: 80%;     
+    }
+
+    .container button{
+        margin-top: 10%;
+        cursor: pointer;
+        background-color: #31486c;
+        color: white;
+        height: 50px;
+        width: 235px;
+        border: 0;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+
+    .block-text button{
+        cursor: pointer;
+        background-color: #31486c;
+        color: white;
+        height: 60px;
+        width: 300px;
+        border: 0;
+        border-radius: 20px;
+        font-size: 18px;
+        margin-top: 50px;
+        transition: 0.3s;
+    }
+    
+    .block-text button:hover{
+        cursor: pointer;
+        background-color: #0a1b35;
+        color: white;
+        height: 60px;
+        width: 300px;
+        border: 0;
+        border-radius: 20px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    .block{
+        width: 100%;
+        height: 600px;
+        background-color: white;
+        box-shadow: 0px 6px 15px 16px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .bloco{
+        flex-direction: column;
+       
+    }
+
+    .bloco img{
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .bloco p{
+        font-size: 18px;
+        width: 90%;
+        margin-bottom: 20px;
+    } 
+
+    .none{
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 900px){
+
+
+
+
+    .beneficos img{
+        width: 100%;
+    }
+
+    .text-for p{
+        font-size: 22px;
+       margin-top: 50px;
+    }
+
+    .row h4 {
+        font-size: 20px;
+    }
+
+    .row p {
+        font-size: 15px;
+    }
+
+    .row {
+        width: 80%;
+    }
+
+    .provas img{
+        width: 100%;
+    }
+    
+    .imagens{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .powerup{
+        flex-direction: column;   
+    }
+
+    .capa{
+        width: 90%;
+    }
+
+    .block-text{
+        padding-top: 40px;
+       
+    }
+
+    
+
+    .faq-section {  
+        width: 90%;    
+    }
+
+    .faq-question {
+        font-size: 20px;    
+    }
+
+}
+
+
+@media only screen and (max-width: 550px){
+    .box-wrapper{
+        width: 100% !important;
+    }
+    .text h1{
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    .box-text h2{
+        font-size: 25px;
+    }
+    
+    .box-text p{
+        font-size: 17px;
+        padding: 0 4%;
+    }
+
+    .title h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .text-function h3{
+        margin-top: 0px;
+        width: 70%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    .img{
+        height: 500px; 
+    }
+
+    .row h4 {
+        width: 20%;
+        font-size: 16px;
+        margin-left:15px;
+        margin-right: 10px;
+        padding: 0;
+    }
+
+    .row p {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .row {
+        padding: 0;
+        width: 95%;
+    }
+
+    .block-wrapper{
+        width: 90%;
+        margin-top: 0px; 
+    }
+
+    .cta1{
+        font-size: 40px !important;
+    }
+    .cta1 span,.cta1{
+        margin-top: 20px !important;
+        font-family: 'Poetsen One', sans-serif ;
+    }
+
+    .cta2{
+        font-size: 60px !important;
+    }
+
+    .cta3{
+        font-size: 40px !important;
+    }
+
+
+
+
+    .powerup{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .capa{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bonus-livro{
+        width: 80%;
+        height: 400px;
+        
+    }
+    
+    .bonus-check{
+        width: 80%;
+        height: 400px;
+    }
+    
+    .bonus-guiada{
+        width: 80%;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+
+    .block-text button{
+        cursor: pointer;
+        background-color: #31486c;
+        color: white;
+        height: 60px;
+        width: 240px;
+        border: 0;
+        border-radius: 20px;
+        font-size: 18px;
+        margin-top: 50px;
+        transition: 0.6s;
+    }
+    
+    .block-text button:hover{
+        cursor: pointer;
+        background-color: #0a1b35;
+        color: white;
+        height: 60px;
+        width: 240px;
+        border: 0;
+        border-radius: 20px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+
+}
